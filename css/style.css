@@ -1,0 +1,227 @@
+/* defaults */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+/* Nav styles */
+ .orange{
+    background-color: orange;
+    color: white;
+    border: none;
+    height: 2em;
+}
+.logo{
+    justify-content: first baseline;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+}
+.intro{
+    display: flex;
+}
+#intro{
+    flex: 1;
+}
+.star{
+    display: flex;
+    flex: 1;
+    /* justify-content: space-between; */
+    align-items: stretch;
+    padding: 60px 40px;
+    background-color: #fff;
+    text-align: center;
+    gap: 20px;
+}
+.star-box{
+    /* display: flex; */
+    border: 1px solid #d9d9d9;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(red, green, blue);
+    background-color: #f9f9f9;
+}
+.hero{
+    margin: 10px 30px;
+}
+.hero-right{
+    flex: 1;
+    display: block;
+}
+.images-bottom{
+    display: flex;
+    gap: 3em;
+}
+.images img{
+          background-color: black;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.left{
+    justify-content: space-between;
+    gap: 10px;
+}
+.color{
+    color: orange;
+}
+h1{
+    font-size: 5em;
+}
+.para{
+    font-size: 1.5em;
+}
+/* third section */
+.kala{
+    color: orange;
+    justify-content: center;
+    text-align: center;
+}
+.diff{
+    color: orange;
+}
+.menu{
+    justify-content: center;
+    text-align: center;
+}
+
+.Marggerita{
+display: flex;
+justify-content: center;
+border: ipx solid#d9d9d9;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgb(red, green, blue);
+background-color: #f9f9f9;
+gap: 3em;
+}
+.Add{
+    background-color: black;
+    color: white;
+    width: 7em;
+    height: 2em;
+}
+
+.straight{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.more{
+    background-color: orange;
+    color: white;
+    height: 2em;
+    width: 10em;
+    border: none;
+}
+.bottom{
+    padding: 30px 6px;
+}
+.new{
+    font-size: 10px;
+    padding: 20px;
+}
+.special{
+    padding: 25px;
+    font-size: 3em;
+    text-decoration: solid;
+}
+.us{
+    color: orange;
+    justify-content: center;
+}
+.different{
+    color: orange;
+}
+.container{
+    flex: 1;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin: 4px 90px 20px ;
+}
+.line h5{
+    font-size: 1em;
+}
+.fresh img{
+    background-color: black;
+    border: #d9d9d9;
+}
+.fresh{
+    display: flex;
+}
+.pizza{
+    /* border: ipx solid darkgrey; */
+    background-color: #f9f9f9;
+    gap: 3em;
+    padding: 2px 8px;
+    margin: 8px 10px;
+}
+.paint{
+    color: orange;
+    text-align: center;
+}
+.centre{
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+.need{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 60px 40px;
+    /* background-color: #f9f9f9; */
+    text-align: center;
+    gap: 10px;
+
+}
+footer{
+      display: flex;
+      /* background: var(darkgrey); */
+      color: #fff;
+      padding: 50px;
+      background-color: #444;
+}
+.black{
+    display: flex;
+    gap: 3em;
+    margin: 6px 30px;
+}
+.footer-links{
+    padding-bottom: 5em;
+}
+form{
+    padding-bottom: 2em;
+}
+.quick{
+    padding-bottom: 1em;
+}
+.footer-links ul li{
+    padding-bottom: .7em;
+
+} 
+.footer-links ul li a:hover{
+    color: orange;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+form{
+    width: 10em;
+    height: 4em;
+}
+.last{
+    padding-bottom: 3em;
+}
